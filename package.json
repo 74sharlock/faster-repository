@@ -1,10 +1,10 @@
 {
   "name": "faster-repo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "make github repository download faster",
   "main": "./lib/index.js",
   "bin": {
-    "fast-repo": "./bin/index.js"
+    "faster-repo": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +13,17 @@
   "license": "ISC",
   "dependencies": {
     "sudo-prompt": "^9.1.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/74sharlock/faster-repository.git"
+  },
+  "bugs": {
+    "url": "https://github.com/74sharlock/faster-repository/issues"
+  },
+  "homepage": "https://github.com/74sharlock/faster-repository#readme"
 }
