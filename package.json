@@ -1,5 +1,5 @@
 {
-  "name": "faster-repository",
+  "name": "faster-repo",
   "version": "0.1.0",
   "description": "make github repository download faster",
   "main": "./lib/index.js",
