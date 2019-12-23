@@ -1,0 +1,17 @@
+{
+  "name": "faster-repository",
+  "version": "0.1.0",
+  "description": "make github repository download faster",
+  "main": "./lib/index.js",
+  "bin": {
+    "fast-repo": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "74sharlock",
+  "license": "ISC",
+  "dependencies": {
+    "sudo-prompt": "^9.1.1"
+  }
+}
