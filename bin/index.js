@@ -3,6 +3,7 @@
 const fn = require('../lib');
 
 (async () => {
-  await fn();
-  console.log('done');
+  let { ip, domain } = await fn();
+  console.log('done.');
+  console.log(`[${ip} => ${domain}] has been added to your hosts file.`);
 })();
